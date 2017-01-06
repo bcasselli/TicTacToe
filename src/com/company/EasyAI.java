@@ -1,7 +1,17 @@
 package com.company;
 
-/**
- * Created by bc608 on 12/22/16.
- */
-public class EasyAI {
+import java.util.ArrayList;
+import java.util.Random;
+
+public class EasyAI extends AI{
+
+    Random generator;
+
+    public EasyAI()
+    {
+        generator = new Random();
+    }
+
+    @Override
+    public int[] getMove
 }
